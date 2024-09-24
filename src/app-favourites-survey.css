@@ -200,9 +200,7 @@ body {
  
 @media(max-width: 1000px){
   body{
-      background-image: linear-gradient(180deg, rgb(239, 14, 156), rgba(89, 75, 13, 0.844), rgba(39, 214, 0, 0.844)), url(../images/app-favourites-survey-background.JPG);
-  }
-  .survey-form {
+      background-image: linear-gradient(180deg, rgb(107, 34, 80), rgba(89, 75, 13, 0.844), rgba(39, 214, 0, 0.844)), url(../images/app-favourites-survey-background.JPG);
       text-align: center;
       margin-left: 3em;
       margin-right: 3em;
