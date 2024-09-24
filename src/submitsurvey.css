@@ -30,13 +30,14 @@ span{
 
 @media(max-width: 1285px){
     .thankYouMessage {
+        display: flex;
         text-align: center;
         font-size: 15px;
         margin-left: 2em;
         margin-right: 2em;
         margin-top: 9em;
         margin-bottom: 7em;
-        width: auto;
+        width: 500px;
         padding-top: 5em;
         padding-bottom: 5em;
         background: linear-gradient(to right, rgba(255, 20, 147, 0.8), rgba(255, 140, 0, 0.8), rgba(144, 238, 144, 0.8));
