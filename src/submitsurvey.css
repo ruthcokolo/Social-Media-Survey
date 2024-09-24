@@ -34,9 +34,10 @@ span{
         margin-left: 2em;
         margin-right: 2em;
         width: auto;
-        padding-top: 3em;
+        padding: auto;
     }
     body{
         overflow: auto;
+       
     }
 }
