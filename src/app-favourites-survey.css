@@ -222,7 +222,7 @@ body {
   
   .fav-platform, .disabled-option, .question {
     font-size: 120%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial black;
     margin-left: 5%;
     padding-top: 2%;
     width: 100%; 
@@ -231,7 +231,6 @@ body {
   }
   
   .yes, .no, .question {
-    font-family: 'Times New Roman', Times, serif;
     width: 90%; 
     font-size: 120%;
     padding: 5px;
