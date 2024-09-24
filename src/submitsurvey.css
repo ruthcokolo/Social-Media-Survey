@@ -35,9 +35,8 @@ span{
         margin-left: 2em;
         margin-right: 2em;
         width: auto;
-        padding-top: 5em;
-        padding-bottom: 5em;
-        background: rgba(0,0,0,0.8);
+        padding: 0, auto;
+        background: rgba(0,0,0,0.1);
         border-radius: 50px;
         backdrop-filter: blur(10px);
         justify-content: center;
