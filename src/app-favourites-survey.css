@@ -1,0 +1,244 @@
+body {
+    width: auto;
+    height: 800vh;
+    margin: 0 auto; 
+    background-image: linear-gradient(180deg, rgba(58, 68, 158, 0.8), rgba(166, 13, 105, 0.844), rgba(148, 166, 13, 0.844)), url(../images/app-favourites-survey-background.JPG);
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 100vh; 
+    color: rgb(250,255,255)
+    
+}
+
+.container {
+    width: auto;
+    padding-top: 4%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin: 0 auto; 
+    margin-left: 5%;
+    margin-right: 5%;
+   
+    
+ }
+
+ h1 {
+  font-size: 200%;
+  width: auto;
+  padding-top: -2%;
+  font-family: Tahoma;
+  text-align: center;
+}
+
+
+.description {
+    font-size: 129%;
+    max-width: 25em;
+    margin: 1em auto;
+    margin-top: -0.5em;
+    padding-bottom: 0%;
+    padding-left: -2%;
+    padding-right: 0%;
+    text-align: center;
+}
+
+
+.survey-form {
+  background-color:  rgba(255, 0, 132, 0.336) ;
+  box-shadow: 0 0 10px rgba(0, 0, 0,1);
+  max-width: 40em;
+  margin: 0 auto;
+  position: center;
+  padding: 0 auto;
+
+}
+
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .name, .email, .age, .select {
+    display: block;
+    width: 90%;
+    height: 1.566em;
+    margin: 1em auto;
+    border-style: solid;
+    font-size: 1.1rem;
+    min-width: 3px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+  .name-label, .email-label, .age-label {
+    font-family:Arial black;
+    font-size: 110%;
+    margin-left: 5%;
+    padding: auto; 
+  }
+  
+  .checkbox-label {
+    margin-top: -13%;
+    margin-bottom: 9%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5em;
+    font-size: 110%;
+    color: white;
+    font-family: Arial black;
+    margin-bottom: 1%;
+  }
+
+  .favourite-label {
+    margin-top: -1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3em;
+    padding-bottom: auto;
+    text-align: center;
+  
+    font-size: 130%;
+    color: white;
+    font-family: Arial black;
+    margin-bottom: 1%;
+  }
+  
+  .question-prompt {
+    padding-top: 7%;
+    margin-left: 2%;
+    font-size: 120%;
+    color: white;
+    font-family: Arial Black;
+    text-align: center;
+    margin-bottom: 1%;
+  }
+
+  .fav-platform, .disabled-option, .question {
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    padding-top: 2%
+  }
+  
+  input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: black;
+  }
+
+  .yes, .no, .question {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 130%;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+  .platform-as-amovie {
+    font-family: Arial black;
+    font-size: 120%;
+    padding-top: 9%;
+    width: 85%;
+    text-align: center;
+    padding-left:5%;
+    padding-right: 5%;
+   
+  }
+
+  .comment {
+    display: block;
+    width: 90%;
+    margin: 1em auto;
+    height: 5em;
+    border-style: solid;
+    font-size: 1.1rem;
+    min-width: 3px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+  }
+
+
+
+  .submit {
+    margin: 1em auto 1em;
+    margin-left: 15em;
+    height: 2em;
+    font-size: 1.1rem;
+    min-width: 100px;
+    font-family: cursive;
+    background-image:linear-gradient(180deg, rgba(166, 13, 105, 1, 1),  rgba(151, 166, 13, 1),  rgba(56, 13, 166, 1));
+    border-color: rgba(166, 13, 105, 0.798);
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0.5, 0.5);
+    text-align: center;
+    
+
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+ 
+@media(max-width: 1285px){
+  .survey-form {
+      text-align: center;
+      margin-left: 3em;
+      margin-right: 3em;
+      width: auto;
+      padding-top: 3em;
+  }
+
+  .name, .email, .age, .select {
+    display: block;
+    margin-top: auto;
+  }
+
+  .name-label, .email-label, .age-label {
+    font-family:Arial black;
+    font-size: 110%;
+    width: 100%; 
+    text-align: left; 
+  }
+  
+  .fav-platform, .disabled-option, .question {
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    padding-top: 2%;
+    width: 100%; 
+    padding: 10px;
+    text-align: left; 
+  }
+  
+  .yes, .no, .question {
+    font-family: 'Times New Roman', Times, serif;
+    width: 90%; 
+    font-size: 120%;
+    padding: 5px;
+    text-align: left; 
+  }
+  .submit {
+    margin-left: auto;
+  }
+  
+}
+  
