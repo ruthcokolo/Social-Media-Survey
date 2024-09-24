@@ -36,4 +36,7 @@ span{
         width: auto;
         padding-top: 3em;
     }
+    body{
+        overflow: auto;
+    }
 }
