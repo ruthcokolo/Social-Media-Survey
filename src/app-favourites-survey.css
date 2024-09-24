@@ -231,6 +231,10 @@ body {
     padding: 10px;
     text-align: left; 
   }
+
+  .checkbox-label {
+    padding-top: 1em;
+  }
   
   .yes, .no, .question {
     width: 90%; 
