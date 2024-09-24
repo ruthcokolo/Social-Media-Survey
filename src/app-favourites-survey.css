@@ -225,7 +225,7 @@ body {
     font-size: 120%;
     font-famiy: Arial black;
     margin-left: 5%;
-    padding-top: auto;
+    margin-right: 5%;
     width: 100%; 
     color: white;
     padding: 10px;
@@ -233,7 +233,7 @@ body {
   }
 
   .checkbox-label {
-    padding-top: 3em;
+    padding-top: 5em;
   }
   
   .yes, .no, .question {
