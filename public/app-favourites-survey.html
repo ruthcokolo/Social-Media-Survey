@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel='stylesheet' href="../src/app-favourites-survey.css">
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Social Media Preferences: The Ultimate Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1 id='title'>Social Media Preferences Survey Form</h1>
+    <p class='description' id='description'>Time to settle it! Which social media app is your ultimate fave? Share your thoughts in this fun, quick survey!</p>
+  </div>
+
+<div class="survey-form" id="surveyForm">
+
+<form action="../public/submitsurvey.html" method="get">
+<fieldset>    
+    <label for='name' id='name-label' class="name-label"> Name:</label><input required class="name" id='name' type='text' placeholder='Enter your full name here..'/>
+   
+    <label for='email' id='email-label' class="email-label"> Email (optional):</label><input class='email' id='email' type='email' placeholder='your.email@example.com' />
+   
+    <label for='age' id='age-label' class="age-label"> Age: </label><input required  class='age' id='age' type='number' min='16' max='120' placeholder='Select your age here..'  />
+
+
+ 
+    <label class="checkbox-label"> Out of the Social Media Legends listed, which ones do you use? </label>
+    <label class="fav-platform"> <input name='best-platform' value='tiktok' class='inline' type='checkbox' /> Tiktok  </label>
+    <label class="fav-platform"> <input name='best-platform' value='instagram' class='inline' type='checkbox' /> Instagram </label>
+    <label class="fav-platform"> <input name='best-platform' value='linkedIn' class="inline" type='checkbox' /> LinkedIn </label>
+    <label class="fav-platform"> <input name='best-platform' value='twitter' class="inline" type='checkbox'/> Twitter </label>
+    <label class="fav-platform"> <input name='best-platform' value='youtube' class="inline" type='checkbox'/> Youtube </label>
+    <label class="fav-platform"> <input name='best-platform' value='snapchat' class="inline" type='checkbox' /> Snapchat </label> 
+    <label class="fav-platform"> <input name='best-platform' value='pinterest' class="inline" type='checkbox' /> Pinterest </label>
+    <label class="fav-platform"> <input name='best-platform' value='whatsapp' class="inline" type='checkbox' /> Whatsapp </label>
+    <label class="fav-platform"> <input name='best-platform' value='facebook' class="inline" type='checkbox' /> Facebook </label>
+    <label class="fav-platform"> <input name='best-platform' value='reddit' class="inline" type='checkbox' /> Reddit </label>
+
+                                                                                                                                                    
+  
+        <label class="favourite-label" name="top-pick"> Which of these social media platforms is your all-time favorite?</label>
+        <select id='platforms'class="select" name="top-pick" required>
+          <option>Select your top pick</option>
+          <option class="top-pick" value="tiktok">Tiktok</option>
+          <option class="top-pick" value="instagram">Instagram</option>
+          <option class="top-pick" value="linkedin" >LinkedIn</option>
+          <option class="top-pick" value="twitter">Twitter</option>
+          <option class="top-pick" value="youtube" >Youtube</option>
+          <option class="top-pick" value="snapchat" >Snapchat</option>
+          <option class="top-pick" value="pinterest">Pinterest</option>
+          <option class="top-pick" value="whatsapp" >Whatsapp</option>
+          <option class="top-pick" value="facebook">Facebook</option>
+          <option class="top-pick" value="reddit">Reddit</option>
+        </select> 
+
+    
+   
+        <label class="question-prompt"> How Does This Social Media Platform Affect You?</label>
+        <label class="question">It has made a positive impact on my daily life</label>
+        <label>
+         <label class="yes"><input type='radio' name="choice1" class="inline" /> Yes </label>
+         <label class="no"><input type='radio' name="choice1" class="inline"  /> No </label>
+         <label class="question">It influences my purchasing decisions</label>
+         <label class="yes"><input type='radio' name="choice2" class="inline" /> Yes </label>
+         <label class="no"><input type='radio' name="choice2"class="inline" /> No </label>
+         <label class="question">It keeps me closer to friends than other platforms </label>
+         <label class="yes"><input type='radio'name="choice3" class="inline" /> Yes </label>
+         <label class="no"><input type='radio' name="choice3" class="inline"  /> No </label>
+         <label class="question">This platform is more addictive than others</label> 
+         <label class="yes"><input type='radio' name="choice4" class="inline" /> Yes </label>
+         <label class="no"><input type='radio' name="choice4" class="inline"  /> No </label>
+         <label class="question">This social media platform represents my true self</label>
+         <label class="yes"> <input type='radio'name="choice5" class="inline" /> Yes </label>
+         <label class="no"><input type='radio'name="choice5" class="inline"  /> No </label>
+        </label>
+
+
+
+      <label class="platform-as-amovie">If your favorite social media platform were a character in a movie, what role would it play and why?
+      <textarea class="comment" placeholder="Enter your comment here..." required></textarea> </label>
+
+
+      <button id="submit" value="Submit" class="submit" type="submit" onclick="submitSurvey()" > Submit </button>
+      </fieldset> 
+  </div>
+</form>
+<script src="../src/script.js"></script>
+</body>
+</html>
