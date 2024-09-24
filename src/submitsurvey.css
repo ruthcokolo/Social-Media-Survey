@@ -31,7 +31,7 @@ span{
 @media(max-width: 1285px){
     .thankYouMessage {
         text-align: center;
-        font-size: 30px
+        font-size: 15px
         margin-left: 2em;
         margin-right: 2em;
         width: auto;
