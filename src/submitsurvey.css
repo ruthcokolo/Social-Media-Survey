@@ -31,13 +31,11 @@ span{
 @media(max-width: 1285px){
     .thankYouMessage {
         text-align: center;
+        font-size: 50%
         margin-left: 2em;
         margin-right: 2em;
         width: auto;
         padding-bottom: 7em;
     }
-    body{
-        overflow: auto;
-       
-    }
+    
 }
