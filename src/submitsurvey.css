@@ -35,8 +35,8 @@ span{
         margin-left: 2em;
         margin-right: 2em;
         width: auto;
-        padding: 0, auto;
-        background: rgba(0,0,0,0.1);
+        padding: auto;
+        background: linear-gradient(to right, rgba(255, 105, 180, 0.7), rgba(255, 255, 0, 0.7));
         border-radius: 50px;
         backdrop-filter: blur(10px);
         justify-content: center;
